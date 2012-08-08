@@ -25,12 +25,14 @@ dt code, dd code { font-size:1.3em; line-height:150%; }
 pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 
 #jqm-homeheader img { width: 235px; }
-img { max-width: 100%; }
+img { max-width: 100%; max-height:100%; }
 
 /* fluid images moved from jquery.mobile.core.css*/
 .ui-mobile img {
 	max-width: 100%;
+	max-height:100%; 
 }
+
 
 .ui-header .jqm-home { top: 0; }
 nav { margin: 0; }
